@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Override CSS */
+@layer base{
+    main {
+        /* Using pure CSS */
+        background-color: red;
+
+        
+    }
+        /* OR */
+
+         /* Apply taiwind class */
+    header {
+        @apply bg-red-200
+    }
+}
